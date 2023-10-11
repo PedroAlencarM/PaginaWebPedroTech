@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body class="banner">
+    <div class="navbar">
+        <img src="Imagens\logo.png" class="logoCadastro">
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </div>  
+    <div class="title">
+        <h1>Cadastro de Usuário</h1>
+        <p>Complete suas informações</p>
+    </div>
+
+    <form>
+        <div class="section">
+            <label for="nome"><strong>Nome:</strong></label>
+            <input type="text" name="Nome" id="nome" required>
+        </div>
+
+        <div class="section">
+            <label for="sobrenome"><Strong>Sobrenome:</Strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>       
+
+        <div class="section">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="section">
+            <label for="senha"><strong>Senha:</strong></label>
+            <input type="password" name="senha" id="senha" minlength="8" required>
+        </div>
+        
+        <div class="button">
+            <a href='index.html'><button><span></span>Crie sua conta</button></a>
+        </div>   
+    </form>
+</body>
+</html>
