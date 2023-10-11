@@ -43,7 +43,7 @@
     transition: 0.2s;
 }
 
-.navbar ul li:hover:after{
+.navbar ul li:hover:after {
     width: 100%;
  }
 
@@ -89,7 +89,8 @@ span {
     z-index: -1;
     transition: 0.5s;
 }
-.HomeCadastro{
+
+.HomeCadastro {
     background-color:#009688;
     font-family: sans-serif;
     font-size: 1em;
@@ -107,7 +108,7 @@ button:hover {
     border: none;
 }
 
-.title{
+.title {
     font-family: sans-serif;
     color: rgb(255, 255, 255); 
     justify-content: center;
@@ -119,7 +120,7 @@ button:hover {
     text-align: center;
     color: rgb(255, 255, 255);
 }
-.section input:focus{
+.section input:focus {
     background-color: #e0e0f8;
     
 }
@@ -136,6 +137,6 @@ label{
     width: 90px;
 }
 
-.button{
+.button {
     text-align: center;
 }
